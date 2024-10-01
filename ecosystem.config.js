@@ -24,7 +24,7 @@ module.exports = {
 			ref: "origin/master",
 			repo: "git@github.com:VladimirJelincic/moleculer-demo.git",
 			path: "/home/vladimir/apps",
-			"post-deploy": "npm install && pm2 start npm -- start"
+			"post-deploy": "npm install && pm2 start npm -- start --name moleculer-demo"
 		}
 	}
 };
